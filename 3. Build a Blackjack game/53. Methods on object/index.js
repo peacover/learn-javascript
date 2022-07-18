@@ -1,8 +1,12 @@
 let player = {
     name: "Per",
     chips: 200,
+    sayhello: function()
+    {
+        console.log("hello world!")
+    }
 }
-
+player.sayhello()
 let cards = []
 let sum = 0
 let hasBlackJack = false

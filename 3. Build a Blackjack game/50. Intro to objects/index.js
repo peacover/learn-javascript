@@ -11,7 +11,7 @@ let course = {
     tags: ["html", "css"]
 }
 
-
-console.log( course.tags )
+console.log( course["tags"])
+console.log( course.tags[0] )
 
 
