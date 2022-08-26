@@ -1,0 +1,21 @@
+// npm init
+// npm start // start already exists
+// npm run start_server // start_server is a custom script
+
+  // A dependency is a library that a project needs to function effectively.(in production)
+    // DevDependencies are the packages a developer needs during development
+
+//npm install nodemon --save-dev 
+    // --save-dev is a flag that tells npm to install the package as a devDependency
+    // nodemon is a package that allows you to restart the server when you make a change
+    // --save is a flag that tells npm to install the package as a dependency
+
+// intellisense npm install @types/sequelize
+
+sarl 5 co found
+sas 
+
+innovation manager
+ompic 
+
+SAS requirements
