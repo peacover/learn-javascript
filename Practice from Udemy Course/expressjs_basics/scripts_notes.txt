@@ -1,0 +1,4 @@
+npm init
+npm install --save-dev nodemon
+// add start command in scripts in pachage.json file (start: "nodemon app.js")
+npm install --save express

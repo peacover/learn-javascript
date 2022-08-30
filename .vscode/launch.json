@@ -8,10 +8,10 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/Practice from Udemy Course/nodejs_basics/Practice_tests/Node.js",
             "restart": true,
             "runtimeExecutable": "/home/peacover/.nvm/versions/node/v16.17.0/bin/node",
-            "console": "integratedTerminal",
+            "program": "${workspaceFolder}/Practice from Udemy Course/nodejs_basics/Practice_tests/Node.js",
+            // "console": "integratedTerminal",
             "skipFiles": [
                 "<node_internals>/**"
             ],

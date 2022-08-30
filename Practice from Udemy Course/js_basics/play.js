@@ -125,6 +125,6 @@ let b = {
     hobby : 'animal'
 }
 
-let array = ["hello", ...v, "test"] 
+let array = ["hello", ...hobbies, "test"] 
 
 console.log(array)
