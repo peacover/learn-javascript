@@ -1,0 +1,12 @@
+npm init
+
+npm install --save-dev nodemon
+// add start command in scripts in pachage.json file (start: "nodemon app.js")
+
+npm install --save express
+
+npm install --save body-parser
+// to use req.body();
+
+npm install --save ejs pug express-handlebars
+// tu use ejs pug and handlebars
