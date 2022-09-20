@@ -9,6 +9,10 @@ npm install --save body-parser
 // to use req.body();
 
 npm install --save ejs pug express-handlebars
-// tu use ejs pug and handlebars
+// to use ejs pug and handlebars
+
+npm install --save express mysql2
+
 
 s24e21 159 144-195
+
