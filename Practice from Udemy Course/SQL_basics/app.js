@@ -5,9 +5,13 @@ const bodyParser = require('body-parser');
 
 const errorController = require('./controllers/error');
 
-const app = express();
-const port = 3000
+const db =  require('./util/database');
 
+const app = express();
+const port = 5000
+
+
+// db.execute('select * from products').then().catch();
 app.set('view engine', 'ejs');
 app.set('views', 'views');
 
