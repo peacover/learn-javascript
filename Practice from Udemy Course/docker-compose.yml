@@ -6,6 +6,8 @@ services:
       - database.env
     ports:
       - 5432:5432
+    networks:
+      - myProject
     volumes:
       - database-data:/var/lib/postgresql/data/ # persist data even if container shuts down
   web:
@@ -21,3 +23,5 @@ services:
       - dbpostgres
 volumes:
   database-data:
+networks:
+  myProject

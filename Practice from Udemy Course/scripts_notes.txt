@@ -1,5 +1,6 @@
 npm init
 
+
 npm install --save-dev nodemon
 // add start command in scripts in pachage.json file (start: "nodemon app.js")
 
@@ -14,9 +15,14 @@ npm install --save ejs pug express-handlebars
 
 npm install --save express mysql2
 
-
 s24e21 159 144-195
 
 users table: id, full name, email, avatar, friends[]?, history[], status(waiting, in-game, ...), achievements[]
 
 
+tsc --init 
+npm i --save-dev @types/node
+
+-------------------
+
+npm i -g @nestjs/cli
